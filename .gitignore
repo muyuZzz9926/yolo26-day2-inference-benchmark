@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models & datasets (downloaded by the upstream setup script, never committed)
+weights/
+data/
+*.pt
+*.onnx
+*.bin
+*.xml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
